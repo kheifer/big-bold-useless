@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     var words = $('#userInput').val();
 
-
+    
   });
 
 });

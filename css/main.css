@@ -8,3 +8,21 @@ body {
   text-align: center;
   text-shadow: 1;
 }
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+
+  font-weight: bold;
+}
+
+.layer-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+  transition: color 1s ease;
+}
