@@ -9,7 +9,7 @@ $(document).ready(function () {
   $('#color').submit(function (event) {
     event.preventDefault();
 
-    $('#color').hide();
+    $('.jumbotron').hide();
 
     var words = $('#userInput').val();
 
